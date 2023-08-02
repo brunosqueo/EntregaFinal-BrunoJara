@@ -10,7 +10,7 @@
 .section-contacto{
     display: flex;
     padding-top: 50px;
-    padding-bottom: 200px;
+    padding-bottom: 50px;
         .container-contacto{
             color: rgb(0, 0, 0);
             background-color: white;
@@ -32,8 +32,15 @@
                 height: 500px;
                 width: 400px;
                 border-radius: 15px;
-                margin-left:100px;
+                margin-left:150px;
                 padding-left: 30px;
                 padding-top: 20px;
             }
+}
+
+.enviar-contacto{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 100px;
 }
