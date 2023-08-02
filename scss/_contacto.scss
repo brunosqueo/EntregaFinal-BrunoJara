@@ -1,0 +1,39 @@
+/* PAGE CONTACTO */
+/* TITULO CONTACTO */
+.container-titulo-contacto{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: LexendTera;
+}
+/* FORMULARIO */
+.section-contacto{
+    display: flex;
+    padding-top: 50px;
+    padding-bottom: 200px;
+        .container-contacto{
+            color: rgb(0, 0, 0);
+            background-color: white;
+            width: 400px;
+            height: 500px;
+            display: flex;
+            flex-direction: column;
+            margin-left:200px;
+            padding-left: 30px;
+            padding-top: 20px;
+            border-radius: 15px;
+                iframe{
+                        border-radius: 15px;
+                }
+            }
+            .container-contacto2{
+                color:rgb(0, 0, 0);
+                background-color: white;
+                height: 500px;
+                width: 400px;
+                border-radius: 15px;
+                margin-left:100px;
+                padding-left: 30px;
+                padding-top: 20px;
+            }
+}

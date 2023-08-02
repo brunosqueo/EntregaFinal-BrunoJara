@@ -1,0 +1,74 @@
+/* PAGE COMPRA */
+/* IMAGEN FONDO */
+
+.imagen-fondo-compra{
+    background-image: url(../img/Compra/fondocompra.jpg);
+    height: 500px;
+    /* BUSCADOR */
+        .buscador{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 300px;
+                .d-flex{
+                    width: 489px;
+                    height: 37px;
+                }
+        }
+}
+
+.boton-auto{
+    display: none;
+}
+
+/* TITULO DE COMPRA */
+.productos-compra{
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-family: LexendTera;
+}
+
+// GAMA
+.gama-compra{
+    color: white;
+    background-color: #272829;
+    height: 100px;
+    font-family: LexendTera;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* CARDS */
+.cartas-compra{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 200px;
+    padding-top: 100px;
+            .card{
+            margin-left: 100px;
+            margin-bottom: 30px;
+            overflow: hidden;
+            .card-img-top{
+                width: 286px;
+                height: 300px;
+            }
+                .card-body{
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                    .card-title{
+                    display: flex;
+                    justify-content: center;
+                        .card-text{
+                        display: flex;
+                        justify-content: center;
+                    }
+                }
+            }
+        }
+}

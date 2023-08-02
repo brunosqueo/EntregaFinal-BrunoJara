@@ -1,0 +1,72 @@
+/* PAGE INICIO */
+
+/* NAV */
+#navbarNav{
+    justify-content: flex-end;
+    font-family: LexendTera;
+}
+
+/* CUERPO */
+.marcasINDEX{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 200px;
+
+    .marcas1INDEX{
+        width: 347px;
+        height: 76px;
+    }
+    
+    .marcas2INDEX{
+        width: 148px;
+        height: 65px;
+    }
+    
+    .marcas3INDEX{
+        width: 347px;
+        height: 76px;
+    }
+    
+    .marcas4INDEX{
+        width: 158px;
+        height: 65px;
+    }
+    
+    .marcas5INDEX{
+        position: relative;
+        display: inline;
+        bottom: 15px;
+        width: 290px;
+        height: 100px;
+    }
+    
+}
+
+// cartas que van en mobile
+.cartas{
+    display: none;
+}
+
+.conoce-inicio{
+    display: none;
+}
+
+/* IMAGEN FONDO */
+.fondo-imagen{
+    background-image: url(../img/Inicio/fondo2.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: center;
+    /* BOTON */
+        .catalogo{
+            display: flex;
+            justify-content: center;
+            align-items: flex-end;
+            height: 500px;
+                .btn a{
+                    text-decoration: none;
+                    color: white;
+                }
+        }
+    
+}

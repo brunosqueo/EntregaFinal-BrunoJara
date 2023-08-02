@@ -1,0 +1,30 @@
+/* PAGE NOSOTROS */
+
+    /* TITULO NOSOTROS */
+    .titulo-nosotros h2{
+        display: flex;
+        justify-content: center;
+        color: white;
+        font-size: 35px;
+    }
+
+    /* PARRAFO NOSOTROS */
+    .parrafo-nosotros{
+        display: flex;
+        color: white;
+            .parrafo-nosotros2{
+                padding-left: 150px;
+            }
+    }
+
+    /* BOTON NOSOTROS */
+    .boton-nosotros{
+        display: flex;
+        justify-content:center;
+        padding-bottom: 200px;
+        .btn:hover{
+            width: 150px;
+            height: 45px;
+            font-size: 20px;
+            }
+    }

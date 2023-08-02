@@ -1,0 +1,138 @@
+/* MEDIA QUERY INICIO*/
+
+@media (max-width: 480px){
+    /* TITULO */
+    h1{
+        font-size: 55px;
+        display: flex;
+        justify-content: center;
+    }
+    /* FONDO IMAGEN */
+    .fondo-imagen{
+        background-image: url(/img/Inicio/2022-corvette.jpg);
+        background-position: center;
+        position: relative;
+        bottom: 60px;
+        /* BOTON */
+            .catalogo{
+                    justify-content: center;
+                    align-items: flex-end;
+                    height: 600px;
+                    .btn{
+                        width: 220px;
+                        height: 50px;
+                    }
+                    .btn a{
+                        font-size: 20px;
+                    }
+                }
+    }
+
+    /* MARCAS */
+    
+    .info{
+        height: 100px;
+        h2{
+            color: rgb(255, 255, 255);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+            .marcasINDEX{
+                display: none;
+            }
+    }
+    
+    .cartas{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+            .card{  
+                margin-bottom: 32px;
+            }
+    }
+
+}
+
+ /* MEDIA QUERY PAGE COMPRA */
+
+@media (max-width: 480px){
+    /* IMAGEN FONDO-MOBILE */
+    .imagen-fondo-compra{
+        background-image: url(../img/Compra/fondo-mobile.jpg);
+        background-repeat: no-repeat;
+    }
+    /* BUSCADOR */
+    .buscador{
+        .d-flex{
+            .form-control{
+                display: none;
+            }
+            .btn{
+                display: none;
+            }
+        }
+    }
+    /* BOTON */
+    .boton-auto{
+        display: flex;
+        height: 400px;
+        justify-content: center;
+        align-items: flex-end;
+            .btn{
+                width: 200px;
+                height: 50px;
+            }
+    }
+    /* TITULO-COMPRA */
+    .productos-compra{
+        color: white;
+        display: flex;
+        justify-content: center;
+        font-family: LexendTera;
+        font-size: 40px;
+    }
+    /* CARTAS */
+    .cartas-compra{
+        display: block;
+            .card-body{
+                display: flex;
+                flex-direction: column;
+                height: 170px;
+                    .btn{
+                        height: 40px;
+                        width: 250px;
+                    }
+            }
+    }
+
+}
+
+/* MEDIA QUERY PAGE NOSOTROS */
+@media (max-width: 480px){
+    .imagen-nosotros{
+        height: 100%;
+        width: 100%;
+    }
+    .parrafo-nosotros p{
+        display: flex;
+        padding-left: 0;
+        padding-top: 20px;
+        
+    }
+}
+
+/* MEDIA QUERY PAGE CONTACTO */
+@media (max-width: 480px){
+    .section-contacto{
+        display: block;
+            .container-contacto{
+                margin-left: 35px;
+            }
+            .container-contacto2{
+                margin-left: 35px;
+                margin-top: 30px;
+            }
+        }
+}
