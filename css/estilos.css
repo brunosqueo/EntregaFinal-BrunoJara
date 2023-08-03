@@ -275,6 +275,10 @@ body h1 {
     padding-left: 0;
     padding-top: 20px;
   }
+  .section-nosotros img {
+    width: auto;
+    height: auto;
+  }
 }
 /* MEDIA QUERY PAGE CONTACTO */
 @media (max-width: 480px) {
