@@ -32,13 +32,17 @@
 // GAMA
 .gama-compra{
     color: white;
-    background-color: #272829;
+    background-color: #8C3333;
+    width: 700px;
     height: 100px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 2px #a3333b;
     font-family: LexendTera;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-left: 350px;
 }
 
 

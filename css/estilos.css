@@ -114,13 +114,17 @@ body h1 {
 
 .gama-compra {
   color: white;
-  background-color: #272829;
+  background-color: #8C3333;
+  width: 700px;
   height: 100px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 4px 2px #a3333b;
   font-family: LexendTera;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-left: 350px;
 }
 
 /* CARDS */
@@ -257,8 +261,14 @@ body h1 {
     height: 100%;
     width: 100%;
   }
+  .titulo-nosotros {
+    margin-top: 50px;
+  }
   .parrafo-nosotros p {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
     padding-left: 0;
     padding-top: 20px;
   }
@@ -280,30 +290,52 @@ body h1 {
   }
 }
 /* PAGE NOSOTROS */
-/* TITULO NOSOTROS */
-.titulo-nosotros h2 {
+.section-nosotros {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  /* PARRAFO NOSOTROS */
+  /* TITULO NOSOTROS */
+  /* BOTON NOSOTROS */
+}
+.section-nosotros h2 {
+  font-family: LexendTera;
+}
+.section-nosotros div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.section-nosotros div h3 {
+  font-family: LexendTera;
+  margin-bottom: 30px;
+}
+.section-nosotros div img {
+  margin-top: 30px;
+  width: 70%;
+  height: 400px;
+  border-radius: 20px;
+}
+.section-nosotros .parrafo-nosotros {
+  display: flex;
+}
+.section-nosotros .parrafo-nosotros .parrafo-nosotros2 {
+  padding-left: 150px;
+}
+.section-nosotros .titulo-nosotros h2 {
   display: flex;
   justify-content: center;
   color: white;
   font-size: 35px;
 }
-
-/* PARRAFO NOSOTROS */
-.parrafo-nosotros {
-  display: flex;
-  color: white;
-}
-.parrafo-nosotros .parrafo-nosotros2 {
-  padding-left: 150px;
-}
-
-/* BOTON NOSOTROS */
-.boton-nosotros {
+.section-nosotros .boton-nosotros {
   display: flex;
   justify-content: center;
   padding-bottom: 200px;
 }
-.boton-nosotros .btn:hover {
+.section-nosotros .boton-nosotros .btn {
   width: 150px;
   height: 45px;
   font-size: 20px;
