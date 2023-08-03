@@ -257,14 +257,17 @@ body h1 {
 }
 /* MEDIA QUERY PAGE NOSOTROS */
 @media (max-width: 480px) {
-  .imagen-nosotros {
+  .section-nosotros {
+    display: block;
+  }
+  .section-nosotros .imagen-nosotros {
     height: 100%;
     width: 100%;
   }
-  .titulo-nosotros {
-    margin-top: 50px;
+  .section-nosotros .titulo-nosotros {
+    margin-top: 20px;
   }
-  .parrafo-nosotros p {
+  .section-nosotros .parrafo-nosotros p {
     display: flex;
     justify-content: center;
     align-items: center;

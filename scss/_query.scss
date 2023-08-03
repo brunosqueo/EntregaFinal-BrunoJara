@@ -110,22 +110,27 @@
 
 /* MEDIA QUERY PAGE NOSOTROS */
 @media (max-width: 480px){
-    .imagen-nosotros{
-        height: 100%;
-        width: 100%;
+    
+    .section-nosotros{
+        display: block;
+        .imagen-nosotros{
+            height: 100%;
+            width: 100%;
+        }
+        .titulo-nosotros{
+            margin-top: 20px;
+        }
+        .parrafo-nosotros p{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding-left: 0;
+            padding-top: 20px;
+            
+        }
     }
-    .titulo-nosotros{
-        margin-top: 50px;
-    }
-    .parrafo-nosotros p{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-        padding-left: 0;
-        padding-top: 20px;
-        
-    }
+
 }
 
 /* MEDIA QUERY PAGE CONTACTO */
