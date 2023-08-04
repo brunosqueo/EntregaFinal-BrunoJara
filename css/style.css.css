@@ -254,6 +254,15 @@ body h1 {
     height: 40px;
     width: 250px;
   }
+  .gama-compra {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 350px;
+    height: 70px;
+    margin: 60px;
+  }
 }
 /* MEDIA QUERY PAGE NOSOTROS */
 @media (max-width: 480px) {
